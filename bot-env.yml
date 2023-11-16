@@ -1,0 +1,10 @@
+name: bot-env
+channels:
+  - defaults
+
+dependencies:
+- python
+- requests
+- pip
+- pip:
+  - python-telegram-bot
