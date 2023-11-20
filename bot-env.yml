@@ -1,10 +1,17 @@
 name: bot-env
 channels:
-  - defaults
+- soumith
+- conda-forge
+- defaults
 
 dependencies:
 - python
 - requests
 - pip
+- numpy
+- pandas
+- jupyter
+- plotly
 - pip:
+  - jupyterlab
   - python-telegram-bot
